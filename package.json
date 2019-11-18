@@ -1,0 +1,13 @@
+{
+  "name": "APS-II",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck src/deck.mdx",
+    "build": "mdx-deck build --no-html src/deck.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^2.3.2"
+  }
+}
